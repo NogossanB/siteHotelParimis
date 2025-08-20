@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="L'hôtel parimis cinq étoiles vous propose ses chambres luxueuses, son restaurant avec chef étoilé ainsi qu'un spa pensé pour votre bien être en plein coeur de Paris.">
+    <meta name="keywords" content="hotel parimis, hôtel, hotel avenue montaigne, 5 étoiles, paris, parimis, restaurant, restaurant parimis, spa, spa parimis, soins corps, restaurant paris, spa paris, soins paris, chef étoilé, massage, massage paris, haute gastronomie, luxe, design, vue tour eiffel">
+
+    <title>Nos suites | Hôtel Parimis 5 étoiles </title>
+
+		<link rel="icon" type="img/png" href="/img/Logo.png" />
+        <link rel="stylesheet" href="css/chambres.css">        
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+   		<div id="container">
+		<!--ENTETE-->
+			<header id="menu"></header>
+
+		<!--MENU-->
+				<nav id="nav"></nav>
+		
+						<!--MAIN-->
+
+			<main>
+				<section class="chambres-intro ">
+							<h1 class="titre-intro">Nos suites</h1>
+							<hr>
+						
+							<div class="p-chambre">
+							<p class="">Le charme et l’élégance, un parfum de légende… Chacune de nos chambres est une destination à part entière, avec ce supplément d’âme qui fait la magie du Parimis Paris. Nos Chambres & Suites de Prestige racontent toute la beauté historique de l’hôtel, elles rendent hommage à des personnalités qui ont façonné le mythe de l'Avenue Montaigne.</p></div>
+							
+				</section>
+
+				
+
+			<section class="chambres-services">	
+<div class="box-img">
+						<div class="box-width titre-rooms">
+						<a href="suite.html">Nos Suites</a>
+					</div>
+  <div>
+    
+
+    <div id="slider">
+        <img src="img/parimis-view2.jpg" id="slide" alt="chambre suite piscine 5 étoiles luxe tour effeil">
+        <div id="precedent" onclick="ChangeSlide(-1)">&lt;</div>
+        <div id="suivant" onclick="ChangeSlide(1)">&gt;</div>
+    </div>
+    
+                    <p>Beauté du style, impression d’espace, lumière infiniment douce. Nos suites offrent le charme d’une demeure privée ainsi que le confort d’un grand appartement. Pour vivre Paris comme chez soi, dans un cadre merveilleux.</p>
+                    <h2>À partir de 15 000 €/ Nuit</h2>
+                    <h3>185 m²</h3>
+                    				<button class="btn2 btn-size2" onclick="window.location.href='/reservation.html'">Réserver cette gamme</button>
+                </div>
+			</div>	
+		</section>
+
+			</main>
+
+		
+            
+            <footer id="footer"></footer>
+				
+</div>
+	  <script>
+				
+
+const slide = ["img/parimis-view2.jpg", "img/parimis-pool.jpg", "img/parimis-bed.jpg", "img/parimis-bath.jpg", "img/parimis-view.jpg"];
+let numero = 0;
+
+function ChangeSlide(sens) {
+    numero = numero + sens;
+    if (numero < 0)
+        numero = slide.length - 1;
+    if (numero > slide.length - 1)
+        numero = 0;
+
+document.getElementById("slide").src = slide[numero];
+
+}
+	  </script>
+      <script src="/js/include.js"></script>
+</body>
+</html>
