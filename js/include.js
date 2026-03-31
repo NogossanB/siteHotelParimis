@@ -10,7 +10,7 @@ const menu = `
             </li>
         </ul>
     </div>
-    <a class="header-logo" href="index.html"><img src="/img/Logo.png" alt="Logo"/></a>
+    <a class="header-logo" href="index.html"><img src="siteHotelParimis/img/Logo.png" alt="Logo"/></a>
 
     <form class="header-droite" action="">
         <input class="barrederecherche" type="search" placeholder="Recherche"/>
