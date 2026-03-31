@@ -44,12 +44,12 @@ const nav = `
             <span class="bar"></span>
         </div>
         <ul class="nav-list">
-            <li><a href="siteHotelParimis/index.html">L'hôtel</a></li>
-            <li><a href="siteHotelParimis/chambres.html">Chambres</a></li>
-            <li><a href="siteHotelParimis/restaurant.html">Restaurant & Bar</a></li>
-            <li><a href="siteHotelParimis/spa.html">Spa</a></li>
-            <li><a href="siteHotelParimis/reservation.html">Réservation</a></li>
-            <li><a href="siteHotelParimis/contact.html">Contact</a></li>
+            <li><a href="/index.html">L'hôtel</a></li>
+            <li><a href="/chambres.html">Chambres</a></li>
+            <li><a href="/restaurant.html">Restaurant & Bar</a></li>
+            <li><a href="/spa.html">Spa</a></li>
+            <li><a href="/reservation.html">Réservation</a></li>
+            <li><a href="/contact.html">Contact</a></li>
         </ul>
          
 `
@@ -68,10 +68,10 @@ const footer = `
 				</select>
 					</span >
 					<ul>
-					<li><a href="siteHotelParimis/mentions-legales.html">Mentions légales</a></li>
-					<li><a href="siteHotelParimis/conditions-ventes.html">Conditions générales de vente</a></li>
-					<li><a href="siteHotelParimis/plan.html">Plan du site</a></li>
-					<li><a href="siteHotelParimis/contact.html">Contact</a></li>
+					<li><a href="/mentions-legales.html">Mentions légales</a></li>
+					<li><a href="/conditions-ventes.html">Conditions générales de vente</a></li>
+					<li><a href="/plan.html">Plan du site</a></li>
+					<li><a href="/contact.html">Contact</a></li>
 					<button class="btn mtop btn-size" onclick="window.print()">Imprimer la page</button>
 				</ul>
 				Nogossan Binate 2025 © Hôtel Spa Parimis  - <a href="#container">Retour Haut de page</a> <br>
